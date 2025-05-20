@@ -11,5 +11,10 @@ namespace ProductManager
         {
             MessageBox.Show("Form has loaded, hello world!");
         }
+
+        private void exitBtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
