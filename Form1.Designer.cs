@@ -36,7 +36,7 @@
             // 
             // addBtn
             // 
-            addBtn.Location = new Point(12, 247);
+            addBtn.Location = new Point(28, 131);
             addBtn.Name = "addBtn";
             addBtn.Size = new Size(115, 67);
             addBtn.TabIndex = 0;
@@ -46,7 +46,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(53, 99);
+            label1.Location = new Point(59, 77);
             label1.Name = "label1";
             label1.Size = new Size(84, 15);
             label1.TabIndex = 1;
@@ -54,14 +54,14 @@
             // 
             // productTxt
             // 
-            productTxt.Location = new Point(154, 96);
+            productTxt.Location = new Point(169, 77);
             productTxt.Name = "productTxt";
             productTxt.Size = new Size(100, 23);
             productTxt.TabIndex = 2;
             // 
             // exitBtn
             // 
-            exitBtn.Location = new Point(191, 247);
+            exitBtn.Location = new Point(169, 131);
             exitBtn.Name = "exitBtn";
             exitBtn.Size = new Size(115, 67);
             exitBtn.TabIndex = 3;
@@ -73,7 +73,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(318, 450);
+            ClientSize = new Size(318, 258);
             Controls.Add(exitBtn);
             Controls.Add(productTxt);
             Controls.Add(label1);
